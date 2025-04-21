@@ -1,0 +1,25 @@
+{
+  "name": "envoy-plugin",
+  "version": "1.0.0",
+  "description": "Envoy Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyboba/envoy-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyboba/envoy-plugin/issues"
+  },
+  "homepage": "https://github.com/luckyboba/envoy-plugin#readme",
+  "dependencies": {
+    "@envoy/envoy-integrations-sdk": "^2.3.0",
+    "express": "^5.1.0"
+  }
+}
